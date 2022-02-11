@@ -404,7 +404,7 @@ namespace ProjectName
 	  public string BankName;
 	  public const string ShippingType = "DropShip";
 	  
-	  private float _timeToDie;
+	  private float timeToDie;
 	  
 	  #endregion
 	  
@@ -497,7 +497,7 @@ Insert one space between the comment delimiter (//) and the comment text, as sho
 The // (two slashes) style of comment tags should be used in most situations. Where ever possible, place comments above the code instead of beside it. Here are some examples:
 ```
         // Sample comment above a variable.
-        private int _myInt = 5;
+        private int myInt = 5;
 ```
 
 #### Regions
